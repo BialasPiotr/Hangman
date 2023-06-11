@@ -7,7 +7,7 @@ namespace Hangman
     {
         static void Main(string[] args)
         {
-            string[] wordList = { "dog", "screwdriver", "justice", "bus", "cafe", "necklace", "endurance" };
+            string[] wordList = { "dog", "screwdriver", "justice", "bus", "cafe", "necklace", "endurance", "cat", "car" };
 
             Random random = new Random();
             int index = random.Next(0, wordList.Length);
